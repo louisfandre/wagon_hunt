@@ -1,0 +1,8 @@
+<div class="container">
+  <h1>All Products</h1>
+  <ul>
+    <% @products.each do |product| %>
+    <li><%= product.name %></li>( <%= product.url %> )
+    <% end %>
+  </ul>
+</div>
