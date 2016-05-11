@@ -1,5 +1,6 @@
 <%= simple_form_for @product do |f|%>
   <%= f.input :name, placeholder: "Kudoz", label: "Saisir le nom du produit" %>
   <%= f.input :url, placeholder: "http://kudoz.com", label: "Entrez l'url du produit" %>
+  <%= f.input :tagline, placeholder: "Tinder for jobs", label: "Give a tagline" %>
   <%= f.button :submit, "Valider", class: "btn btn-primary" %>
 <%end%>
